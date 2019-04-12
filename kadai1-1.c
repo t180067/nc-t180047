@@ -9,8 +9,8 @@ int main ()
 {
   int x, y;
 
-  for (x = -8;x<=8;x++) {
-    for (y = 0;y<f(x); y++) {
+  for (x = -8; x <= 8 ; x++) {
+    for (y = 0; y < f(x) ; y++) {
       printf("*");
     }
     printf("\n");
