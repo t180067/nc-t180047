@@ -7,7 +7,8 @@ int main ()
   int max_data = data[0];
 
   for (i = 1; i < sizeof(data) / sizeof(data[0]); i++) {
-      /* ここを埋める */
+      if(max_data<data[i])
+        max_data = data[i];
   }
 
   printf("最大値は %d です。\n", max_data);
