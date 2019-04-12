@@ -2,18 +2,17 @@
 
 int f(int x)
 {
-  return /* ここを埋める */ ;
+  return x*x;
 }
 
 int main ()
 {
   int x, y;
 
-  for (x = -8; /* ここを埋める */ ; /* ここを埋める */) {
-    for (y = 0; /* ここを埋める */; y++) {
-      /* ここを埋める */
+  for (x = -8;x<=8;x++) {
+    for (y = 0;y<f(x); y++) {
+      printf("*");
     }
-    /* ここを埋める */
+    printf("\n");
   }
-
 }
