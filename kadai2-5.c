@@ -8,7 +8,7 @@ int main(){
 		printf("%lld %d\n",i,t);
 		i=i*2;
 		t++;
-		if(a<=0)break;
+		if(i<=0)break;
 	}
 
 }
