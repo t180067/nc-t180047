@@ -1,15 +1,13 @@
-#include <stdio.h>
+#include<stdio.h>
 
 int main(){
 	long long i=1;
-	int t=1;
 	
 	while(1){
-		printf("%lld %d\n",i,t);
 		i=i*2;
-		t++;
-		if(i<=0)break;
-	}
-
+		  if(i<0){
+		   printf("%lld",-(i+1));
+		   break;
+		}
+	 }
 }
-
