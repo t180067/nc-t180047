@@ -1,0 +1,1 @@
+all: kadai2-4 kadai2-5 kadai2-7

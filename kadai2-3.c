@@ -1,13 +1,15 @@
-#include <stdio.h>
+#include<stdio.h>
 
-int main ()
-{
-  short a, b, c;
-
-  printf("a の値を入力してください：");
-  scanf("%hd",&a);
-  printf("b の値を入力してください：");
-  scanf("%hd",&b);
-  c = a + b;
-  printf("a + b は %d です。\n", c);
+int main(){
+    short a, c;
+    int b;
+    a=47;b=1;
+    while(1){ 
+        c = a + b;
+        if(c == 0){
+            printf("a + b = 0 (%hd,%d)\n",a, b);
+            if(b>0)break;
+        }
+        b++;
+    }
 }
