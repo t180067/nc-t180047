@@ -1,1 +1,1 @@
-all: kadai2-4 kadai2-5 kadai2-7
+all: kadai2-4 kadai2-5 kadai2-7 kadai4-1 kadai4-2 kadai4-3 kadai4-4
